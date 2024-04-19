@@ -1,0 +1,54 @@
+.produtos {
+  display: flex;
+  justify-content: space-between;
+  width: 71rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+.produtos div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 225px;
+}
+
+.produtos img {
+  height: 125px;
+}
+
+.produtos li {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.produtos p {
+  line-height: 23px;
+}
+
+.produtos a {
+  text-decoration: none;
+  font-weight: 800;
+  color: var(--Very-dark-blue);
+  transition: 0.3s;
+}
+
+.produtos a:hover {
+  color: var(--Soft-red);
+}
+
+@media (max-width: 800px) {
+  .produtos {
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .produtos a {
+    font-weight: 900;
+  }
+}
