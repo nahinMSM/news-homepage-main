@@ -33,7 +33,7 @@ Os usuários devem ser capazes de:
 
 ###Links
 
-- URL do site ativo: [URL do site ativo aqui](https://newshomepage.netlify.app)
+- URL do site ativo: [URL do site ativo aqui](https://newspagemain.netlify.app)
 
 ## Meu processo
 
